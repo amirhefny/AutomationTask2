@@ -44,7 +44,7 @@ public class Task2 {
         return !items.isEmpty();
     }
 
-    @AfterTest
+    @AfterClass
     public void close(){
        driver.quit();
     }
